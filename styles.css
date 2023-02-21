@@ -1,0 +1,32 @@
+Screen {
+  layout: grid;
+  grid-size: 3;
+  grid-gutter: 2;
+  padding: 2;
+}
+#nav_logo {
+  margin-top: 1;
+  column-span: 1;
+  content-align: center bottom;
+  text-style: bold;
+}
+
+#brand_name {
+  margin-top: 1;
+
+  column-span: 1;
+  content-align: center bottom;
+  text-style: bold;
+}
+
+#email_logo {
+  margin-top: 1;
+
+  column-span: 1;
+  content-align: center bottom;
+  text-style: bold;
+}
+
+Button {
+  width: 100%;
+}
