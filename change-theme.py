@@ -96,14 +96,11 @@ class ThemeChanger(object):
 
 
 if __name__ == "__main__":
-  # brand_name = input("What is the brand name? ")
-  # brand_logo_nav = input("What is the brand nav logo file path? ")
-  # brand_logo_profile = input("What is the brand profile logo file path? ")
-  # brand_email_logo = input("What is the brand email logo file path? ")
-  brand_name = "Nestle"
-  brand_logo_nav = r"logos\brand_logo_nav.png"
-  brand_logo_profile= r"logos\brand_logo_profile.png"
-  brand_email_logo = r"logos\brand_email_logo.png"
+  brand_name = input("What is the brand name? ")
+  brand_logo_nav = input("What is the brand nav logo file path? ")
+  brand_logo_profile = input("What is the brand profile logo file path? ")
+  brand_email_logo = input("What is the brand email logo file path? ")
+
   ## check if file exists
   if not os.path.exists(brand_logo_nav):
     print("Nav logo file does not exist")
